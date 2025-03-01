@@ -1,0 +1,1 @@
+[print(next(a for a,t in __import__('itertools').accumulate(e, lambda acc, x: (x[0], acc[1]+x[1])) if c<t)) for e in [[(a, int(b)) for a, b in __import__('re').findall(r'([a-z])(\d+)', input())]] for c in [int(input()) % sum(b for _,b in e)]]

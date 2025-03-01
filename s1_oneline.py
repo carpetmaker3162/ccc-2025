@@ -1,0 +1,1 @@
+[print(min(P - 2*min(B, Y), P - 2*min(A, X))) for i in [[list(map(int, input().split()))]] for A, B, X, Y in i for P in [2 * (A + B + X + Y)]]
